@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragments_color"
+    android:padding="15dp"
+    tools:context="com.alameen.wael.hp.market.AccountFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/products_border"
+        android:padding="10dp"
+        android:layout_marginTop="130dp">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_phone"
+        android:text=""
+        android:textColor="@color/font_color"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_location"
+            android:text="الموقع : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/t_phone"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentRight="true"/>
+
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/google_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            tools:context="alameen.wael.hp.friedchicken.ConfirmRequestActivity"
+            tools:layout="@layout/abc_action_bar_title_item" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_to_user"
+            android:text="@string/login_user"
+            android:background="@drawable/border_drawable"
+            android:layout_below="@+id/google_map"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r1"
+        android:padding="10dp"
+        android:background="@drawable/products_border">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/t_image"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_name"
+            android:text=""
+            android:textColor="@color/font_color"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_email"
+            android:text=""
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_below="@+id/t_name"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

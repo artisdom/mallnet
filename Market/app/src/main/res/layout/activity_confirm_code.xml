@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.alameen.wael.hp.market.ConfirmCodeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint66"
+            android:textSize="15sp"
+            android:id="@+id/hint80"
+            android:gravity="center"
+            android:textColor="@color/font_color"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:layout_marginTop="90dp"
+            android:id="@+id/input">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/enter_code"
+                android:hint="@string/hint4"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_code"
+            android:layout_marginTop="10dp"
+            android:text="تاكيد"
+            android:textSize="20sp"
+            android:background="@drawable/border_drawable"
+            android:layout_below="@+id/input"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/retry"
+            android:text="لم يصلك الكود ! قم باعادة الارسال"
+            android:textSize="15dp"
+            android:layout_marginTop="65dp"
+            android:gravity="center"
+            android:layout_below="@+id/confirm_code"
+            android:textColor="@color/font_color"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

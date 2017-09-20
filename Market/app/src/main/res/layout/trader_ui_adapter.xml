@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trader_layout"
+        android:background="@drawable/products_border"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="150dp"
+            android:id="@+id/ui_product_Image"
+            android:layout_marginRight="160dp"
+            android:src="@drawable/sample"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ui_product_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="قميص رجالي"
+            android:textSize="15sp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ui_product_price"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:text="200 $"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/style_color"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/del"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/del"
+            android:background="@drawable/border_drawable"
+            android:layout_below="@+id/ui_product_price" />
+
+    </RelativeLayout>
+
+</LinearLayout>

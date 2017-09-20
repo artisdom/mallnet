@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_products"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.alameen.wael.hp.market.TraderInsertInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/font_color"
+            android:id="@+id/hint7"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/enter_trader_image"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/hint7"
+            android:src="@drawable/ic_menu_camera"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_2"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/enter_trader_image">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enter_trader_name"
+            android:hint="ادخل الاسم الخاص بك او بمحلك"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/enter_trader_image"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/complete"
+            android:text="استمرار"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_drawable"
+            android:layout_below="@+id/input_2"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

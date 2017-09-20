@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/fragments_color"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/products_border"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="الاسم : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="السعر : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/num"
+            android:text="العدد : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/price"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/color"
+            android:text="الالوان : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@+id/num"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/size"
+            android:text="القياسات : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cost"
+            android:text="مدة التجهيز : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/size"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="تاريخ الطلب : "
+            android:textColor="@color/font_color"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cost"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/yes"
+            android:text="المنتج متوفر"
+            android:background="@drawable/border_drawable"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/date"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/no"
+            android:text="المنتج ليس متوفر"
+            android:background="@drawable/border_drawable"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/date"
+            android:layout_gravity="left"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

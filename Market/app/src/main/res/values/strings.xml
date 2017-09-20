@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Mall Net</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home_page">الرئيسية</string>
+    <string name="sections">الاقسام</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="men_clothes">الالبسة الرجالية</string>
+    <string name="women_clothes">الالبسة النسائية</string>
+    <string name="boys_clothes">البسة ولادي</string>
+    <string name="girls_clothes">البسة بناتي</string>
+    <string name="accessories">الاكسسوارات</string>
+    <string name="glasses">النظارات</string>
+    <string name="women_bags">الحقائب</string>
+    <string name="bracellets">الاسورة</string>
+    <string name="back_bags">حقائب الظهر</string>
+    <string name="jewellry">المجوهرات</string>
+    <string name="clothes">الملابس</string>
+    <string name="watches">الساعات</string>
+    <string name="perfumes">العطور</string>
+    <string name="electrics">الاجهزة الكهربائية</string>
+    <string name="electronics">الالكترونيات</string>
+    <string name="stationary">الهدايا</string>
+    <string name="books_magazines">الكتب و المجلات</string>
+    <string name="make_ups">مكياج</string>
+    <string name="athletics_tools">الادوات الرياضية</string>
+    <string name="smart_phones">الهواتف الذكية</string>
+    <string name="tablets">الاجهزة اللوحية</string>
+    <string name="sound">اكسسوارات موبايل</string>
+    <string name="tvs">الالكترونيات التفاعلية</string>
+    <string name="search_sellers">البحث عن متجر</string>
+    <string name="traders">المتاجر</string>
+    <string name="quarter">رخيص</string>
+
+    <string-array name="nav_item_titles">
+        <item>الدخول كتاجر</item>
+        <item>الماركات</item>
+        <item>اتصل بنا</item>
+        <item>شارك التطبيق</item>
+        <item>حول التطبيق</item>
+    </string-array>
+
+    <string-array name="logo_array">
+
+    </string-array>
+
+    <string-array name="sec_item_titles">
+        <item>الملابس</item>
+        <item>الاكسسوارات</item>
+        <item>الاحذية و الحقائب</item>
+        <item>العطور</item>
+        <item>الاجهزة الكهربائية</item>
+        <item>الالكترونيات</item>
+        <item>الهدايا</item>
+        <item>الكتب و المجلات</item>
+        <item>مكياج</item>
+        <item>الادوات الرياضية</item>
+        <item>رخيص</item>
+    </string-array>
+
+    <string-array name="spinner_items">
+        <item>الملابس الرجالية</item>
+        <item>الملابس النسائية</item>
+        <item>الملابس الولادية</item>
+        <item>الملابس البناتية</item>
+        <item>الاكسسوارات-النظارات</item>
+        <item>الاكسسوارات-الساعات</item>
+        <item>الاكسسوارات-المجوهرات</item>
+        <item>الاحذية و الحقائب</item>
+        <item>العطور</item>
+        <item>الالكترونيات-الالكترونيات التفاعلية</item>
+        <item>الالكترونيات-الهواتف الذكية</item>
+        <item>الالكترونيات-الاجهزة اللوحية</item>
+        <item>الالكترونيات-اكسسوارات موبايل</item>
+        <item>الاجهزة الكهربائية</item>
+        <item>هدايا</item>
+        <item>الكتب و المجلات</item>
+        <item>مكياج</item>
+        <item>الادوات الرياضية</item>
+        <item>رخيص</item>
+    </string-array>
+
+    <string-array name="currency_items">
+        <item>الدينار العراقي</item>
+    </string-array>
+
+    <string-array name="costs">
+        <item>خلال يومين : 4000 دينار</item>
+        <item>خلال ثلاثة ايام : 3000 دينار</item>
+        <item>خلال اسبوع : 1000 دينار</item>
+    </string-array>
+
+
+    <string name="note">معلومات تسجيل الدخول</string>
+    <string name="house_tools">الادوات المنزلية</string>
+    <string name="title_activity_login">التسجيل كمشترك</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phone">ادخل رقم الهاتف</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">التالي</string>
+    <string name="shoes">الاحذية</string>
+    <string name="title_activity_add_items_from_trader">AddItemsFromTraderActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="desc">اهلا بك في MALL net اختر نوع الدخول</string>
+    <string name="login_trader">الدخول كتاجر</string>
+    <string name="login_user">الدخول كمستخدم</string>
+    <string name="t_section">قسم التجار</string>
+    <string name="add_sales">المنتجات المضافة</string>
+    <string name="my_account">حسابي</string>
+    <string name="choose">اختر الصنف</string>
+    <string name="products_insert">ادخل المعلومات</string>
+    <string name="enter_p_name">الاسم</string>
+    <string name="p_price">السعر</string>
+    <string name="p_desc">الوصف و التفاصيل</string>
+    <string name="p_colors">الالوان</string>
+    <string name="p_sizes">القياسات</string>
+    <string name="p_logo">الماركة</string>
+    <string name="action_publish">action publish</string>
+    <string name="sale_request">طلبات الشراء</string>
+    <string name="alert_message">يرجى السماح بالوصول الى موقعك ؟</string>
+    <string name="dialog_button">تفعيل</string>
+    <string name="cancel">الغاء</string>
+    <string name="action_logout">logout</string>
+    <string name="log_out_msg">هل تريد تسجيل خروج ؟</string>
+    <string name="yes">نعم</string>
+    <string name="action_search">search</string>
+    <string name="searching">ابحث عن تجار</string>
+    <string name="buy">شراء</string>
+    <string name="some_hint">اختر الماركة من القائمة ادناه, اذا لم تتوفر الماركة في القائمة قم باضافة ماركة جديدة من زر الاضافة ادناه</string>
+    <string name="logos">الماركات</string>
+    <string name="search_logos">ابحث عن ماركات</string>
+    <string name="logo_name">اسم الماركة</string>
+    <string name="hint2">قم بادخل معلومات الخاصة بالماركة</string>
+    <string name="insert">تاكيد</string>
+    <string name="currency_type">اختر نوع العملة</string>
+    <string name="mail">البريد الالكتروني</string>
+    <string name="pass">كلمة السر</string>
+    <string name="hint4">يرجى ادخال رقم الكود</string>
+    <string name="del">حذف المنتج</string>
+    <string name="req">اضافة الى سلة المشتريات</string>
+    <string name="buying">شراء</string>
+    <string name="choose1">اختر الالوان التي تريد</string>
+    <string name="choose2">اختر القياسات التي تريد</string>
+    <string name="quantity">الكمية التي تريد شرائها</string>
+    <string name="basket">سلة المشتريات</string>
+    <string name="send">ارسال الطلب</string>
+    <string name="final_confirm">هل انت متاكد من ارسال الطلب ؟</string>
+    <string name="yes2">نعم</string>
+    <string name="upload">اضغط على الكاميرا لتحميل صورة</string>
+    <string name="logging">تسجيل الدخول</string>
+    <string name="new_account">ليس لديك حساب ؟ اضغط لانشاء حساب جديد</string>
+    <string name="hint44">اختر كلفة التوصيل :</string>
+    <string name="hint45">العنوان و اقرب نقطة دالة</string>
+    <string name="hint47">رقم الهاتف</string>
+    <string name="trader55">المتاجر</string>
+    <string name="account">حسابي</string>
+    <string name="shoes_and_backs">الاحذية و الحقائب</string>
+    <string name="no">لا</string>
+    <string name="retry">اعد المحاولة</string>
+    <string name="hint66">تم ارسال رمز التاكيد قم بالتحقق من بريدك الالكتروني</string>
+</resources>

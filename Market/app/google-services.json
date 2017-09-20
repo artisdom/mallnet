@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "791476527488",
+    "firebase_url": "https://mallnet-1bce4.firebaseio.com",
+    "project_id": "mallnet-1bce4",
+    "storage_bucket": "mallnet-1bce4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791476527488:android:76988524ce7e4c38",
+        "android_client_info": {
+          "package_name": "com.alameen.wael.hp.market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791476527488-66vsvie6ulsqo9nruftktvvls1t7en88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZSv3QKKB7mgAYxAAeATWwHwGkG5jQLJk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

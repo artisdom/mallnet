@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_request"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context="com.alameen.wael.hp.market.RequestActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/f1_bar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/toolbar_layout" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/background_color">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:text="اسم المنتج : "
+                android:textSize="15sp"
+                android:textColor="@color/font_color"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/trader_name"
+                android:layout_below="@+id/name"
+                android:text="اسم التاجر : "
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/font_color"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:layout_below="@+id/trader_name"
+                android:text="السعر : "
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/font_color"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/in1"
+                android:layout_below="@+id/price"
+                android:gravity="top|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/in_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/quantity"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/color"
+                android:layout_below="@+id/in1"
+                android:text="هذا المنتج يتوفر بالالوان التالية : "
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/font_color"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/in2"
+                android:layout_below="@+id/color"
+                android:gravity="top|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/in_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/choose1"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/size"
+                android:layout_below="@+id/in2"
+                android:text="هذا المنتج يتوفر بالقياسات التالية : "
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/font_color"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/in3"
+                android:layout_below="@+id/size"
+                android:gravity="top|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/in_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/choose2"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/in4"
+                android:layout_below="@+id/in3"
+                android:gravity="top|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/in_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint45"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/in5"
+                android:layout_below="@+id/in4"
+                android:gravity="top|center_horizontal"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/in_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint47"
+                    android:inputType="phone"
+                    android:textAlignment="center"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hint44"
+                android:text="@string/hint44"
+                android:textColor="@color/font_color"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/in5"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_cost"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/hint44">
+
+            </Spinner>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/request"
+                android:text="@string/req"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/border_drawable"
+                android:layout_below="@+id/select_cost"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/fragments_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.alameen.wael.hp.market.HomePageFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/load_progress_21"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_centerHorizontal="true"
+                android:theme="@style/AppTheme.White"
+                android:visibility="visible" />
+
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:id="@+id/ads_pager">
+
+            </android.support.v4.view.ViewPager>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabDots"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/image_static1"
+                android:scaleType="fitXY"
+                android:background="@drawable/imageview_border"
+                android:layout_below="@+id/ads_pager"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/image_static2"
+                android:scaleType="fitXY"
+                android:background="@drawable/imageview_border"
+                android:layout_below="@+id/image_static1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/image_static3"
+                android:scaleType="fitXY"
+                android:background="@drawable/imageview_border"
+                android:layout_below="@+id/image_static2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/image_static4"
+                android:scaleType="fitXY"
+                android:background="@drawable/imageview_border"
+                android:layout_below="@+id/image_static3"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

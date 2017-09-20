@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hint77"
+            android:text="Designed and Developed by "
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textColor="@color/font_color"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tech"
+            android:src="@drawable/five_tech"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/hint77"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hint78"
+            android:text="Mall Net version: 1.2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@+id/tech"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/font_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hint79"
+            android:text="All Rights Reserved for 5Tech"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@+id/hint78"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/font_color"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

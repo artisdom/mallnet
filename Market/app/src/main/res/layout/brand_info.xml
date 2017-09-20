@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hint"
+            android:text="@string/hint2"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/font_color"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hint8"
+            android:layout_marginTop="10dp"
+            android:text="@string/upload"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/font_color"
+            android:layout_below="@+id/hint"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/brand_image"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/hint8"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/brand_name"
+            android:hint="@string/logo_name"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/brand_image"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/insert"
+            android:layout_marginTop="20dp"
+            android:text="@string/insert"
+            android:textSize="15sp"
+            android:textColor="@color/font_color"
+            android:background="@drawable/border_drawable"
+            android:layout_below="@+id/brand_name"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context="com.alameen.wael.hp.market.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/splash_layout"
+        android:paddingTop="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/car1"
+            android:src="@drawable/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+
+        <!--<ImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:id="@+id/car1"-->
+            <!--android:src="@drawable/p1"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_toRightOf="@+id/logo1"-->
+            <!--android:layout_toEndOf="@+id/logo1" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:id="@+id/tire1"-->
+            <!--android:src="@drawable/p2"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignRight="@+id/car2"-->
+            <!--android:layout_alignEnd="@+id/car2"-->
+            <!--android:layout_marginTop="63dp" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:id="@+id/tire2"-->
+            <!--android:src="@drawable/p2"-->
+            <!--android:layout_alignTop="@+id/tire1"-->
+            <!--android:layout_toLeftOf="@+id/car2"-->
+            <!--android:layout_toStartOf="@+id/car2" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:id="@+id/logo2"-->
+            <!--android:src="@drawable/p4"-->
+            <!--android:layout_alignBottom="@+id/car2"-->
+            <!--android:layout_toRightOf="@+id/car2"-->
+            <!--android:layout_toEndOf="@+id/car2" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:id="@+id/logo1"-->
+            <!--android:src="@drawable/p3"-->
+            <!--android:layout_marginLeft="28dp"-->
+            <!--android:layout_marginStart="28dp"-->
+            <!--android:layout_alignBottom="@+id/car1"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+
+    </RelativeLayout>
+
+</LinearLayout>
